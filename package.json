@@ -1,0 +1,32 @@
+{
+    "name": "node.js-schwarzmueller-assignment",
+    "version": "1.0.0",
+    "description": "Section 5 Assignment 2",
+    "main": "index.js",
+    "scripts": {
+        "start": "nodemon app.js",
+        "start-without-nodemon": "node app.js",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/GoldenMaximo/Node.js-Schwarzmueller-Assignment.git"
+    },
+    "keywords": [
+        "node",
+        "node.js",
+        "express"
+    ],
+    "author": "Gustavo Máximo Filho",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/GoldenMaximo/Node.js-Schwarzmueller-Assignment/issues"
+    },
+    "homepage": "https://github.com/GoldenMaximo/Node.js-Schwarzmueller-Assignment#readme",
+    "dependencies": {
+        "express": "^4.17.1"
+    },
+    "devDependencies": {
+        "nodemon": "^2.0.4"
+    }
+}
